@@ -1,0 +1,298 @@
+{
+  "source_dir": "C:\\Users\\yeye\\Desktop\\WASM4_Traveller",
+  "name": "moonbit/demo",
+  "packages": [
+    {
+      "is-main": false,
+      "is-third-party": false,
+      "root-path": "C:\\Users\\yeye\\Desktop\\WASM4_Traveller\\src",
+      "root": "moonbit/demo",
+      "rel": "",
+      "files": {
+        "C:\\Users\\yeye\\Desktop\\WASM4_Traveller\\src\\bathgame.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        },
+        "C:\\Users\\yeye\\Desktop\\WASM4_Traveller\\src\\foodgame.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        },
+        "C:\\Users\\yeye\\Desktop\\WASM4_Traveller\\src\\hospital.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        },
+        "C:\\Users\\yeye\\Desktop\\WASM4_Traveller\\src\\playgame.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        },
+        "C:\\Users\\yeye\\Desktop\\WASM4_Traveller\\src\\top.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        }
+      },
+      "wbtest-files": {},
+      "test-files": {},
+      "deps": [
+        {
+          "path": "moonbitlang/wasm4",
+          "alias": "wasm4"
+        },
+        {
+          "path": "moonbit/demo/lib",
+          "alias": "lib"
+        }
+      ],
+      "wbtest-deps": [],
+      "test-deps": [],
+      "artifact": "C:\\Users\\yeye\\Desktop\\WASM4_Traveller\\target\\wasm-gc\\release\\check\\demo.mi"
+    },
+    {
+      "is-main": false,
+      "is-third-party": false,
+      "root-path": "C:\\Users\\yeye\\Desktop\\WASM4_Traveller\\src\\lib",
+      "root": "moonbit/demo",
+      "rel": "lib",
+      "files": {
+        "C:\\Users\\yeye\\Desktop\\WASM4_Traveller\\src\\lib\\hello.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        }
+      },
+      "wbtest-files": {},
+      "test-files": {
+        "C:\\Users\\yeye\\Desktop\\WASM4_Traveller\\src\\lib\\hello_test.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        }
+      },
+      "deps": [],
+      "wbtest-deps": [],
+      "test-deps": [],
+      "artifact": "C:\\Users\\yeye\\Desktop\\WASM4_Traveller\\target\\wasm-gc\\release\\check\\lib\\lib.mi"
+    },
+    {
+      "is-main": false,
+      "is-third-party": true,
+      "root-path": "C:\\Users\\yeye\\Desktop\\WASM4_Traveller\\.mooncakes\\moonbitlang\\wasm4",
+      "root": "moonbitlang/wasm4",
+      "rel": "",
+      "files": {
+        "C:\\Users\\yeye\\Desktop\\WASM4_Traveller\\.mooncakes\\moonbitlang\\wasm4\\ffi.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        },
+        "C:\\Users\\yeye\\Desktop\\WASM4_Traveller\\.mooncakes\\moonbitlang\\wasm4\\ffi.wasm-gc.mbt": {
+          "backend": [
+            "WasmGC"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\yeye\\Desktop\\WASM4_Traveller\\.mooncakes\\moonbitlang\\wasm4\\ffi.wasm.mbt": {
+          "backend": [
+            "Wasm"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\yeye\\Desktop\\WASM4_Traveller\\.mooncakes\\moonbitlang\\wasm4\\function.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        },
+        "C:\\Users\\yeye\\Desktop\\WASM4_Traveller\\.mooncakes\\moonbitlang\\wasm4\\memory.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        },
+        "C:\\Users\\yeye\\Desktop\\WASM4_Traveller\\.mooncakes\\moonbitlang\\wasm4\\utils.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        }
+      },
+      "wbtest-files": {},
+      "test-files": {},
+      "deps": [],
+      "wbtest-deps": [],
+      "test-deps": [],
+      "artifact": "C:\\Users\\yeye\\Desktop\\WASM4_Traveller\\target\\wasm-gc\\release\\check\\.mooncakes\\moonbitlang/wasm4\\wasm4.mi"
+    },
+    {
+      "is-main": false,
+      "is-third-party": true,
+      "root-path": "C:\\Users\\yeye\\Desktop\\WASM4_Traveller\\.mooncakes\\moonbitlang\\wasm4\\lib",
+      "root": "moonbitlang/wasm4",
+      "rel": "lib",
+      "files": {
+        "C:\\Users\\yeye\\Desktop\\WASM4_Traveller\\.mooncakes\\moonbitlang\\wasm4\\lib\\ffi.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        },
+        "C:\\Users\\yeye\\Desktop\\WASM4_Traveller\\.mooncakes\\moonbitlang\\wasm4\\lib\\ffi.wasm-gc.mbt": {
+          "backend": [
+            "WasmGC"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\yeye\\Desktop\\WASM4_Traveller\\.mooncakes\\moonbitlang\\wasm4\\lib\\ffi.wasm.mbt": {
+          "backend": [
+            "Wasm"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\yeye\\Desktop\\WASM4_Traveller\\.mooncakes\\moonbitlang\\wasm4\\lib\\function.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        },
+        "C:\\Users\\yeye\\Desktop\\WASM4_Traveller\\.mooncakes\\moonbitlang\\wasm4\\lib\\memory.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        },
+        "C:\\Users\\yeye\\Desktop\\WASM4_Traveller\\.mooncakes\\moonbitlang\\wasm4\\lib\\utils.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        }
+      },
+      "wbtest-files": {},
+      "test-files": {},
+      "deps": [],
+      "wbtest-deps": [],
+      "test-deps": [],
+      "artifact": "C:\\Users\\yeye\\Desktop\\WASM4_Traveller\\target\\wasm-gc\\release\\check\\.mooncakes\\moonbitlang/wasm4\\lib\\lib.mi"
+    }
+  ],
+  "deps": [
+    "moonbitlang/wasm4"
+  ],
+  "backend": "wasm-gc",
+  "opt_level": "release",
+  "source": "src"
+}

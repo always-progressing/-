@@ -1,0 +1,1 @@
+{"$message_type":"diagnostic","level":"error","loc":{"path":"C:\\Users\\yeye\\Desktop\\WASM4_Traveller\\src\\top.mbt","start":{"line":6,"col":7},"end":{"line":6,"col":8}},"message":"Error (warning): The mutability of field 'y' is never used.","error_code":1015}
